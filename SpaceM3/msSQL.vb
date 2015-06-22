@@ -108,4 +108,9 @@ Public Class msSQL
             Throw
         End Try
     End Sub
+
+    Sub Execute_nonqueryInject()
+        Throw New NotImplementedException
+    End Sub
+
 End Class
